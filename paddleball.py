@@ -93,7 +93,7 @@ tk.update()
 score = Score(canvas,'green')
 paddle = Paddle(canvas,'blue')
 ball = Ball(canvas,paddle,score,'red')
-game_over_text = canvas.create_text(250,200,text="Game Over!",state='hidden')
+game_over_text = canvas.create_text(250,200,text="Loser!",state='hidden')
 
 
 while 1:
